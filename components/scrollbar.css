@@ -1,0 +1,18 @@
+:root {
+    --scrollbarBG: #eee;
+    --thumbBG: #cc0000ff;
+    --hoverthumbBG: #000;
+}
+  
+::-webkit-scrollbar {
+    width: 1vw;
+}
+  
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#cc0000ff, #fff);
+    border-radius: 10px;
+}

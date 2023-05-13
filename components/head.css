@@ -1,52 +1,61 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  .homeHeader {
-    background: linear-gradient(#ccc, #fff);
-    height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 100vw;
-  }
-  .homeHeader .leftHomeHeader {
-    height: 400px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .homeHeader .leftHomeHeader h1 {
-    font-size: 48px;
-    margin-bottom: 25px;
-    color: #f00;
-  }
-  .homeHeader .leftHomeHeader h2 {
-    font-size: 40px;
-    margin-bottom: 50px;
-    color: #f00;
-  }
-  .homeHeader img {
-    width: 280px;
-    height: 200px;
-    margin-bottom: 10px;
-  }
-  .homeHeader .rightHomeHeader {
-    height: 400px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
-    margin-bottom: 30px;
-    color: #f00;
-    font-weight: bold;
-    line-height: 1.5;
-  }
-  
+.homeHeader {
+  background: linear-gradient(#ccc, #ccc, #ccc, #fff);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.homeHeader .leftHomeHeader {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeHeader .leftHomeHeader h1 {
+  font-size: 48px;
+  margin-bottom: 25px;
+  color: #f00;
+}
+.homeHeader .leftHomeHeader h2 {
+  font-size: 40px;
+  margin-bottom: 50px;
+  color: #f00;
+}
+.homeHeader img {
+  width: 280px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.homeHeader .rightHomeHeader {
+  height: 400px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  margin-bottom: 30px;
+  color: #f00;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.homeHeaderAlone {
+  background: linear-gradient(#ccc, #ccc, #ccc, #fff);
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.homeHeaderAlone h1 {
+  font-size: 48px;
+  margin-bottom: 25px;
+  color: #f00;
+}
